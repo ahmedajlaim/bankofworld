@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Bank</title>
+  <link rel="stylesheet" href="index.css">
+ 
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="first">
+      <h2>সর্বোমোট জমা</h2>
+      <h2 id="deposit">00</h2>
+    </div>
+    <div class="second">
+      <h2>সর্বোমোট উওলোন</h2>
+      <h2 id="withdraw">00</h2>
+    </div>
+    <div class="third">
+      <h2>মোট ব্যালেন্স</h2>
+      <h2 id="totalbalance">00</h2>
+    </div>
+  </div>
+  <div class="secondmain">
+    <div class="secondfirst">
+      <h2>টাকা জমা করুন</h2>
+      <input id="depositInput" type="number" placeholder="$ টাকার পরিমান লেখুন">
+      <button onclick="depositButton()" >জমা করুন</button>
+    </div>
+    <div class="secondsecond">
+      <h2>টাকা উওলোন করুন</h2>
+      <input id="withdrawInput" type="number" placeholder="$ টাকার পরিমান লেখুন">
+      <button onclick="withdrawButton()" > উওলোন করুন</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+  
+</body>
+
+</html>
+

@@ -1,0 +1,78 @@
+
+.main{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.first{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.second{
+    background-color: rgb(50, 86, 205);
+    padding: 15px;
+    border-radius: 5px;
+    color: yellow;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.third{
+    background-color: rgb(255, 0, 191);
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.secondmain{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.secondfirst{
+    background-color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+}
+.secondsecond{
+    background-color: seashell;
+    padding: 20px;
+    text-align: center;
+}
+input{
+    margin: 20px 0;
+    padding: 8px;
+}
+button{
+    padding: 7px 12px;
+    background-color: green;
+    color: white;
+}
+#login-h1{
+    color: cornflowerblue;
+    text-align: center;
+    margin-top: 150px;
+}
+#login-to-youracc{
+    text-align: center;
+    color: green;
+}
+#login-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 270px;
+}
